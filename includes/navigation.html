@@ -120,11 +120,11 @@
   </div>
 </nav>
 <script>
-  document.addEventListener('alpine:init', () => {
-    Alpine.store('navbar', {
+  document.addEventListener("alpine:init", () => {
+    Alpine.store("navbar", {
       tab: 0,
     });
-    Alpine.data('navbar', (idx) => ({
+    Alpine.data("navbar", (idx) => ({
       init() {
         this.idx = idx;
       },
@@ -134,12 +134,12 @@
           this.$store.navbar.tab === this.idx ? 0 : this.idx;
       },
       handleRotate() {
-        return this.$store.navbar.tab === this.idx ? '-rotate-180' : '';
+        return this.$store.navbar.tab === this.idx ? "-rotate-180" : "";
       },
       handleToggle() {
         return this.$store.navbar.tab === this.idx
           ? `max-height: ${this.$refs.tab.scrollHeight}px`
-          : '';
+          : "";
       },
     }));
   });

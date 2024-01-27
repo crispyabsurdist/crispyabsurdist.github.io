@@ -1,13 +1,14 @@
 {
-    "name": "personal-website",
-    "version": "1.0",
-    "description": "About me, my projects, and my interests.",
-    "author": "Markus Hedenborn",
-    "license": "ISC",
-    "devDependencies": {
-        "@tailwindcss/typography": "^0.5.10"
-    },
-    "dependencies": {
-        "alpinejs": "^3.13.5"
-    }
+  "name": "personal-website",
+  "version": "1.0",
+  "description": "About me, my projects, and my interests.",
+  "author": "Markus Hedenborn",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "prettier": "3.2.4"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.5"
+  }
 }
