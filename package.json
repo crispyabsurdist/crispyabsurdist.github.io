@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "alpinejs": "^3.13.5"
+  },
+  "scripts": {
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
   }
 }
