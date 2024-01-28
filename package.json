@@ -1,7 +1,7 @@
 {
-  "name": "personal-website",
+  "name": "aboutme-website",
   "version": "1.0",
-  "description": "About me, my projects, and my interests.",
+  "description": "Just a personal page",
   "author": "Markus Hedenborn",
   "license": "ISC",
   "devDependencies": {
