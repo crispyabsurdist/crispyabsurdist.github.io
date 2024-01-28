@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;300;400;500;600&family=Ubuntu+Mono:wght@400;700&family=Rubik:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;300;400;500;600&family=Rubik:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     {tailwindcss}
   </head>
 
   <body>
+    <include src="globals/navigation.html"></include>
     <main>{slot}</main>
     <include src="globals/footer.html"></include>
     <script src="/assets/js/main.js"></script>
