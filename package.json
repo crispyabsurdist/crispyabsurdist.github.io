@@ -5,6 +5,7 @@
   "author": "Markus Hedenborn",
   "license": "ISC",
   "devDependencies": {
+    "@mightymeld/runtime": "^0.1.45",
     "@tailwindcss/typography": "^0.5.10",
     "onchange": "^7.1.0",
     "prettier": "3.2.4"
