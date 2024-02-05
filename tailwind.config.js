@@ -7,6 +7,12 @@ module.exports = {
         sans: ['"Work Sans"', "sans-serif"],
         mono: ['"Noto Sans Mono"', "monospace"],
       },
+
+      cursor: {
+        default: "url(/images/fu.png), default",
+        pointer: "url(/images/fu.png), pointer",
+      },
+
       colors: {
         gray: {
           69: "#2a3238",

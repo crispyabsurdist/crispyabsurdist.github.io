@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 /* Add Your Custom CSS Here */
+a:hover {
+  cursor: url("/assets/images/fu.png"), auto;
+}
