@@ -8,6 +8,12 @@ module.exports = {
         mono: ['"Noto Sans Mono"', "monospace"],
       },
       colors: {
+        gray: {
+          69: "#2a3238",
+        },
+        green: {
+          bash: "#4eaa25",
+        },
         swe: {
           50: "#f4f5fb",
           100: "#e9ebf6",
