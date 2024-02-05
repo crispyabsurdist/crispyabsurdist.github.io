@@ -4,5 +4,5 @@
 
 /* Add Your Custom CSS Here */
 a:hover {
-  cursor: url("/assets/images/fu.png"), auto;
+  cursor: url("/assets/images/fu-pointer.png"), auto;
 }
