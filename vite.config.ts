@@ -7,5 +7,4 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["lucide-react"],
   },
-  base: "crispyabsurdist.github.io",
 });
